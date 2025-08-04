@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn the basics of HTML5 semantic structure, accessibility, and SEO in a clean sample page." />
+  <meta name="keywords" content="HTML5, semantic HTML, accessibility, SEO, web development" />
+  <meta name="author" content="Your Name" />
+  <title>Welcome to Semantic HTML</title>
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" aria-label="Learn more about this page">About</a></li>
+        <li><a href="#features" aria-label="Discover key features">Features</a></li>
+        <li><a href="#contact" aria-label="Get in touch with us">Contact</a></li>
+      </ul>
+    </nav>
+    <h1> Semantic HTML</h1>
+    <p>A guide to structured, accessible, and SEO friendly web pages.</p>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page demonstrates how to use semantic HTML5 elements effectively, ensuring both search engine visibility and accessibility for screen readers.</p>
+    </section>
+
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      <article>
+        <h3>Semantic Elements</h3>
+        <p>Using tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> improves content meaning and structure.</p>
+      </article>
+      <article>
+        <h3>Accessibility Enhancements</h3>
+        <p>ARIA labels, proper heading levels, and meaningful link descriptions help users navigate with assistive technologies.</p>
+      </article>
+      <article>
+        <h3>SEO Best Practices</h3>
+        <p>Meta tags, descriptive content, and a clear heading hierarchy boost search engine ranking and discoverability.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <p>If you have any questions, feel free to <a href="mailto:bbit202357315@mylife.mku.ac.ke" aria-label="Send us an email">email us</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
